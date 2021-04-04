@@ -2,25 +2,6 @@
   max-width: 1184px;
   margin: 0 auto;
   position: relative;
-  display: grid;
-  grid-template-rows: repeat(2, min-content);
-  grid-gap: 32px;
-}
-
-.cover:before {
-  background: #2a2c2f;
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  height: 100%;
-  width: 100%;
-  opacity: 0.3;
-  transition: opacity 0.4s ease-in-out;
-}
-
-.cover:hover::before {
-  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
